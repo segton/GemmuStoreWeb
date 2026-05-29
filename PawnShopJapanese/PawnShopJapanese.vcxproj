@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d4ede61a-55ef-4b27-958c-ee6ac81c28ef}</ProjectGuid>
+    <RootNamespace>PawnShopJapanese</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;UNICODE;_UNICODE;JPH_FLOATING_POINT_EXCEPTIONS_ENABLED;JPH_USE_DX12;JPH_USE_CPU_COMPUTE;JPH_DEBUG_RENDERER;JPH_PROFILE_ENABLED;JPH_OBJECT_STREAM;JPH_USE_AVX2;JPH_USE_AVX;JPH_USE_SSE4_1;JPH_USE_SSE4_2;JPH_USE_LZCNT;JPH_USE_TZCNT;JPH_USE_F16C;JPH_USE_FMADD;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\dev\libraries\raylib-source\src;E:\dev\libraries\JoltPhysics;E:\dev\rllmGui-main;E:\dev\imgui;$(SolutionDir)External\raydial\include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\dev\libraries\JoltPhysics\Build\VS2022_CL\Debug;E:\dev\libraries\raylib-source\build_vs2022\raylib\Debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Jolt.lib;raylib.lib
+;opengl32.lib;winmm.lib;gdi32.lib
+;shell32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\dev\libraries\raylib-source\src;E:\dev\libraries\JoltPhysics;E:\dev\rllmGui-main;E:\dev\imgui;$(SolutionDir)External\raydial\include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;UNICODE;_UNICODE;JPH_FLOATING_POINT_EXCEPTIONS_ENABLED;JPH_USE_DX12;JPH_USE_CPU_COMPUTE;JPH_DEBUG_RENDERER;JPH_PROFILE_ENABLED;JPH_OBJECT_STREAM;JPH_USE_AVX2;JPH_USE_AVX;JPH_USE_SSE4_1;JPH_USE_SSE4_2;JPH_USE_LZCNT;JPH_USE_TZCNT;JPH_USE_F16C;JPH_USE_FMADD;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\dev\libraries\JoltPhysics\Build\VS2022_CL\Release;E:\dev\libraries\raylib-source\build_vs2022\raylib\Release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Jolt.lib;raylib.lib
+;opengl32.lib;winmm.lib;gdi32.lib
+;shell32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\External\raydial\src\raydial.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\External\raydial\src\raydial_i18n.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="imgui.cpp" />
+    <ClCompile Include="imgui_demo.cpp" />
+    <ClCompile Include="imgui_draw.cpp" />
+    <ClCompile Include="imgui_tables.cpp" />
+    <ClCompile Include="imgui_widgets.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PhysicsWorld.cpp" />
+    <ClCompile Include="rlImGui.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseModel.h" />
+    <ClInclude Include="Customer.h" />
+    <ClInclude Include="extras\FA6FreeSolidFontData.h" />
+    <ClInclude Include="extras\IconsFontAwesome6.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="imconfig.h" />
+    <ClInclude Include="imgui_impl_raylib.h" />
+    <ClInclude Include="imgui_internal.h" />
+    <ClInclude Include="imstb_rectpack.h" />
+    <ClInclude Include="imstb_textedit.h" />
+    <ClInclude Include="imstb_truetype.h" />
+    <ClInclude Include="PhysicsWorld.h" />
+    <ClInclude Include="rlImGui.h" />
+    <ClInclude Include="rlImGuiColors.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="ThirdParty\cgltf.h" />
+    <ClInclude Include="Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\DayBox.png" />
+    <Image Include="resources\parrots.png" />
+    <Image Include="resources\SkyBox2.png" />
+    <Image Include="Textures\c.png" />
+    <Image Include="Textures\concrete_tiles_nor_gl_1k.png" />
+    <Image Include="Textures\con_arm.png" />
+    <Image Include="Textures\con_dif.png" />
+    <Image Include="Textures\Gameboy_low_Gameboy_BaseColor.png" />
+    <Image Include="Textures\Gameboy_low_Gameboy_Normal.png" />
+    <Image Include="Textures\GameBoy_MRA.png" />
+    <Image Include="Textures\internal_ground_ao_texture.jpeg" />
+    <Image Include="Textures\marble_01_diff_1k.png" />
+    <Image Include="Textures\marble_01_nor_gl_1k.png" />
+    <Image Include="Textures\marble_MRA.png" />
+    <Image Include="Textures\oak_veneer_01_diff_1k.png" />
+    <Image Include="Textures\oak_veneer_01_MRA_1k.png" />
+    <Image Include="Textures\oak_veneer_01_nor_gl_1k.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui.ini" />
+    <None Include="Models\ExiaGundam.glb" />
+    <None Include="Models\GachaBalls.glb" />
+    <None Include="Models\Gachamachine.glb" />
+    <None Include="Models\Gachamachine_noBalls.glb" />
+    <None Include="Models\GameBoy.glb" />
+    <None Include="Models\GameBoy2.glb" />
+    <None Include="Models\GameBoy3.glb" />
+    <None Include="Models\GmanAnim.glb" />
+    <None Include="Models\Japan.glb" />
+    <None Include="Models\Japan2.glb" />
+    <None Include="Models\Japan3.glb" />
+    <None Include="Models\japanmanaAnim.glb" />
+    <None Include="Models\Japanplane.glb" />
+    <None Include="Models\JapanStore.glb" />
+    <None Include="Models\plane.glb" />
+    <None Include="Models\Shelf.glb" />
+    <None Include="resources\urban_street_01_2k.hdr" />
+    <None Include="Shaders\blur.fs" />
+    <None Include="Shaders\cubemap.fs" />
+    <None Include="Shaders\cubemap.vs" />
+    <None Include="Shaders\instancing_basic.fs" />
+    <None Include="Shaders\instancing_basic.vs" />
+    <None Include="Shaders\outline.fs" />
+    <None Include="Shaders\outline.vs" />
+    <None Include="Shaders\pbr.fs" />
+    <None Include="Shaders\pbr.vs" />
+    <None Include="Shaders\pbr_animated.fs" />
+    <None Include="Shaders\pbr_animated.vs" />
+    <None Include="Shaders\pbr_tangent.fs" />
+    <None Include="Shaders\pbr_tangent.vs" />
+    <None Include="Shaders\pbr_tangent_instanced.fs" />
+    <None Include="Shaders\pbr_tangent_instanced.vs" />
+    <None Include="Shaders\shadow_depth.fs" />
+    <None Include="Shaders\shadow_depth.vs" />
+    <None Include="Shaders\shadow_depth_animated.vs" />
+    <None Include="Shaders\skybox.fs" />
+    <None Include="Shaders\skybox.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Data\gacha_ball_local_transforms.txt" />
+    <Text Include="extras\FontAwsome_LICENSE.txt" />
+    <Text Include="scene_state.txt" />
+    <Text Include="scene_state_backup.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\driusstraight.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Audio\customer_sell_intro.mp3" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

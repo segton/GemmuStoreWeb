@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rlImGui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\raydial\src\raydial.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\raydial\src\raydial_i18n.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_raylib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rlImGui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rlImGuiColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extras\FA6FreeSolidFontData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extras\IconsFontAwesome6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\cgltf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\con_dif.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\DayBox.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\parrots.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\SkyBox2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\concrete_tiles_nor_gl_1k.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Gameboy_low_Gameboy_BaseColor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Gameboy_low_Gameboy_Normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\GameBoy_MRA.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\internal_ground_ao_texture.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\marble_01_diff_1k.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\marble_01_nor_gl_1k.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\marble_MRA.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\oak_veneer_01_diff_1k.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\oak_veneer_01_MRA_1k.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\oak_veneer_01_nor_gl_1k.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\con_arm.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\pbr.fs" />
+    <None Include="Shaders\pbr.vs" />
+    <None Include="Shaders\pbr_tangent.vs" />
+    <None Include="Shaders\pbr_tangent.fs" />
+    <None Include="Shaders\cubemap.fs" />
+    <None Include="Shaders\cubemap.vs" />
+    <None Include="Shaders\skybox.fs" />
+    <None Include="Shaders\skybox.vs" />
+    <None Include="Shaders\blur.fs" />
+    <None Include="Shaders\pbr_animated.vs" />
+    <None Include="Shaders\pbr_animated.fs" />
+    <None Include="Shaders\outline.fs" />
+    <None Include="Shaders\outline.vs" />
+    <None Include="Shaders\instancing_basic.fs" />
+    <None Include="Shaders\instancing_basic.vs" />
+    <None Include="Shaders\shadow_depth.fs" />
+    <None Include="Shaders\shadow_depth.vs" />
+    <None Include="Shaders\shadow_depth_animated.vs" />
+    <None Include="Shaders\pbr_tangent_instanced.fs" />
+    <None Include="Shaders\pbr_tangent_instanced.vs" />
+    <None Include="imgui.ini" />
+    <None Include="resources\urban_street_01_2k.hdr" />
+    <None Include="Models\Shelf.glb" />
+    <None Include="Models\ExiaGundam.glb" />
+    <None Include="Models\GachaBalls.glb" />
+    <None Include="Models\Gachamachine.glb" />
+    <None Include="Models\Gachamachine_noBalls.glb" />
+    <None Include="Models\GameBoy.glb" />
+    <None Include="Models\GameBoy2.glb" />
+    <None Include="Models\GameBoy3.glb" />
+    <None Include="Models\GmanAnim.glb" />
+    <None Include="Models\Japan.glb" />
+    <None Include="Models\Japan2.glb" />
+    <None Include="Models\Japan3.glb" />
+    <None Include="Models\japanmanaAnim.glb" />
+    <None Include="Models\Japanplane.glb" />
+    <None Include="Models\JapanStore.glb" />
+    <None Include="Models\plane.glb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="scene_state.txt" />
+    <Text Include="scene_state_backup.txt" />
+    <Text Include="extras\FontAwsome_LICENSE.txt" />
+    <Text Include="Data\gacha_ball_local_transforms.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\driusstraight.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Audio\customer_sell_intro.mp3" />
+  </ItemGroup>
+</Project>
